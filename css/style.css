@@ -1,0 +1,87 @@
+ 
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+ 
+
+   .im{
+  width: 50px;
+}
+ /*  The Legal Practice Are image close*/
+
+ /* What Our Client Say */
+.caroseil-image{
+  width: 65px;
+
+}
+.caroseil-content{
+  margin-top: -480px;
+}
+
+ /* What Our Client Say close */
+
+  /* Our team */
+.p-img {
+  width: 110px;
+    margin-top: -65px;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+ /* our team  close*/
+ /* text hover*/
+ .footertext-hover:hover{
+  color: crimson;
+ }
+
+ /*header banner button */
+ .input{
+
+position: relative;
+left: 250px;
+ }
+
+.bt{
+  position: relative;
+  top:17px;
+  left: 160px;
+}
+/*close*/
+
+@media screen and (max-width:576px) {
+
+  .caroseil-image{
+    width: 50px;
+    margin-top: -20px;
+  
+  }
+  .caroseil-content{
+  margin-top: -100px;
+  font-size: 11px;
+}
+.sr{
+  margin-top: -110px;
+  font-size: 8px;
+
+}
+.input{
+position: relative;
+left:-20px;
+top:-17px;
+
+ }
+ .bt{
+  position: relative;
+  top:-2px;
+  left: 0px;
+}
+}
+
+
+
